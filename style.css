@@ -1,0 +1,664 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    padding: 8px;
+}
+/* Navbar */
+.side_navbar{
+    position: fixed;
+}
+/* First side navbar */
+.side_first{
+    height: 96px;
+    width: 48px;
+    background-color: rgb(32,32,32);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+#home_icon{
+    height: 24px;
+    width: 40px;
+    padding: 4px 12px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+#search_icon{
+    height: 24px;
+    width: 40px;
+    padding: 12px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#home_icon:hover{
+    cursor: pointer;
+    
+}
+#search_icon:hover{
+    cursor: pointer;
+    
+}
+
+/* Second side navbar  */
+.side_second{
+    height: 599.2px;
+    width: 72px;
+    background-color: rgb(32,32,32);
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu_icon{
+    height: 40px;
+    width: 40px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.side_photos{
+    height:64px;
+    width:64px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#photo1{
+    background-image: url('liked_songs_icon.jpg');
+    background-size: cover;
+    height:64px;
+    width:64px;
+    border-radius: 5px;
+}
+#photo2{
+    background-image: url('song_bg_1.jpg');
+    background-size: cover;
+    height:64px;
+    width:64px;
+    border-radius: 5px;
+    margin-top: 8px;
+
+}
+#photo3{
+    background-image: url('song_bg_2.jpg');
+    background-size: cover;
+    height:64px;
+    width:64px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#photo4{
+    background-image: url('song_bg_3.jpg');
+    background-size: cover;
+    height:64px;
+    width:64px;
+    border-radius: 5px;
+    padding-top: 8px;
+   
+}
+#photo5{
+    background-image: url('song_bg_4.jpg');
+    background-size: cover;
+    height:64px;
+    width:64px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#music_icon_1{
+    height:64px;
+    width:64px;
+    background-color: rgb(38,38,38);
+    border-radius: 5px;
+    color: rgb(156, 153, 153);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+#music_icon_2{
+    height:64px;
+    width:64px;
+    background-color: rgb(38,38,38);
+    border-radius: 5px;
+    color: rgb(156, 153, 153);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu_icon:hover{
+    cursor: pointer;
+}
+#photo1:hover{
+    cursor: pointer;
+}
+#photo2:hover{
+    cursor: pointer;
+}
+#photo3:hover{
+    cursor: pointer;
+}
+#photo4:hover{
+    cursor: pointer;
+}
+#photo5:hover{
+    cursor: pointer;
+}
+#music_icon_1:hover{
+    cursor: pointer;
+}
+#music_icon_2:hover{
+    cursor: pointer;
+}
+
+/* Upper navbar first */
+.upper_first{
+    height: 10vh;
+    max-width: 203.9vh;
+    width: 100%;
+    background-color: rgb(32,32,32);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+#left_arrow{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(10,10,10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(246,246,246);
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 8px;
+}
+#left_arrow:hover{
+    cursor: pointer;
+}
+#right_arrow{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(10,10,10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(246,246,246);
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    right: 200px;
+}
+#right_arrow:hover{
+    cursor: pointer;
+}
+#explore_text{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+    left: 575px;
+}
+#explore_text:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#install{
+    height: 30px;
+    width: 110px;
+    background-color: rgb(15,15,15);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 385px;
+}
+#install_text{
+    margin-left: 8px;
+}
+#install:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+#bell{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(15,15,15) ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+    position:relative;
+    left: 200px;
+}
+#bell:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    font-weight: 900;
+}
+#user{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(15,15,15) ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    margin-right: 20px;
+}
+#user:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+/* Upper Second navbar */
+.upper_second{
+    height: 9vh;
+    max-width: 203.9vh;
+    width: 100%;
+    background-color: rgb(32,32,32);
+    margin-left: 82px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 10vh;
+}
+#all_text{
+    height: 24px;
+    width: 16px;
+    padding: 4px 12px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+#all_text{
+    cursor: pointer;
+}
+#music_text{
+    height: 24px;
+    width: 36px;
+    padding: 4px 12px;
+    border-radius: 15px;
+    background-color: rgb(46,46,46);
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    color: rgb(255,255,255);
+}
+#music_text:hover{
+    background: rgb(88, 88, 88);
+    cursor: pointer;
+}
+#podcasts_text{
+    height: 24px;
+    width: 56px;
+    padding: 4px 12px;
+    border-radius: 15px;
+    background-color: rgb(46,46,46);
+    display: flex;
+    align-items: center;
+    color: rgb(255,255,255);
+}
+#podcasts_text:hover{
+    background: rgb(88, 88, 88);
+    cursor: pointer;
+}
+
+
+/* Main Section */
+main{
+    height:130vh;
+    max-width: 203.9vh;
+    width: 100%;
+    background-color:rgb(33,33,33);
+    margin-left: 82px;
+    margin-top: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.best{
+    height: 7vh;
+    display: flex;
+    align-items:end;
+    margin-left: 20px;
+    font-weight: 900;
+    
+}
+#best_text{
+    color: white;
+    font-size: 25px;
+}
+/* Box Area */
+.box_area_1{
+    height:220px ;
+    max-width: 203.9vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.box1{
+    height: 220px;
+    width: 190px;
+    background-color:rgb(33,33,33);
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+.box1:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.box1_image{
+    max-width: 210px;
+    max-height: 180px;
+    border-radius: 10px;
+}
+#box1_text{
+    height: 20px;
+    width: 210px;
+    display: flex;
+    color: white;
+}
+#dot_icon{
+    color: blue;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+#text{
+    margin-left: 8px;
+    font-weight: 700;
+}
+#box1_date_time{
+    margin-left: 8px;
+    margin-top: 15px;
+    color: rgb(189, 185, 185);
+}
+.box2{
+    height: 220px;
+    width: 190px;
+    background-color:rgb(33,33,33);
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.box2:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.box3{
+    height: 220px;
+    width: 190px;
+    background-color:rgb(33,33,33);
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.box3:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.box4{
+    height: 220px;
+    width: 190px;
+    background-color:rgb(33,33,33);
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.box4:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.box5{
+    height: 220px;
+    width: 190px;
+    background-color:rgb(33,33,33);
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.box5:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+/* Box Area 2 */
+.box_area_2{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 203.9vh;
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+}
+.box6{
+    width: 250px;
+    height: 250px;
+    margin-left: 8px;
+}
+.box6:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.box7:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.box8:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.box9:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.box10:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#box6_image{
+    width: 250px;
+    border-radius: 10px;
+}
+#box7_image{
+    width: 250px;
+    border-radius: 10px;
+}
+#box8_image{
+    width: 250px;
+    border-radius: 10px;
+}
+#box9_image{
+    width: 250px;
+    border-radius: 10px;
+}
+#box10_image{
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+#text_2{
+    color: white;
+}
+/* box_area_3 */
+.box_area_3{
+    height: 250px;
+    max-width: 203.9vh;
+    width: 100%;
+    display: flex;
+}
+#box14_image{
+    width: 250px;
+    border-radius: 10px;
+    margin-left:20px ;
+    margin-top: 8px;
+}
+#box14_image:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    max-width: 203.9vh;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(18,18,18);
+    margin-left: 82px;
+    border-radius: 10px;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.footer_text{
+    color: rgb(167,167,167);
+}
+h3{
+    color: white;
+}
+#foot_text1{
+    margin-left: 25px; 
+    padding-top: 30px;
+    
+}
+#foot_text2{
+    position: relative;
+    left: 250px;
+    bottom: 75px;
+}
+#foot_text3{
+    position: relative;
+    bottom: 190px;
+    left: 450px;
+}
+#foot_text4{
+    position: relative;
+    bottom: 250px;
+    left: 650px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+h3{
+    font-weight: 900;
+}
+.icon{
+    color: white;
+    height:40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    position: relative;
+    left: 1100px;
+    top: 75px;
+    font-size: 25px;
+}
+.insta_icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(41,41,41);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.insta_icon:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.twitter_icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(41,41,41);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.twitter_icon:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.facebook_icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(41,41,41);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.facebook_icon:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#foot_text5{
+    color: rgb(167,167,167);
+    height: 40px;
+    width: 600px;
+    position: relative;
+    top: 270px;
+    right: 260px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copywright{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(163,163,163);
+    position: relative;
+    top: 275px;
+    left: 430px;
+}
